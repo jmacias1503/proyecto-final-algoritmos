@@ -14,8 +14,13 @@ Crear un programa que convierta entre diferentes unidades (por ejemplo, metros a
 
 ### Trabajo colaborativo
 
-- Se trabajará con forks, cada que se suban cambios, se hará una pull request a la rama dev
+- Se trabajará con forks, cada que se suban cambios, se hará una pull request a la rama `dev`
 - Todo cambio nuevo será implementado principalmente a `dev`, una vez corroborados los cambios, se enviarán a la rama `master`
+
+### Prácticas para la base de código
+
+- Cada persona involucrada trabajará en su propio archivo de extensión `.h` para evitar merge conflicts.
+- No se utilizará el `namespace std`, por lo tanto, todos los comandos que lo necesiten serán concatenados junto con `std::` para su correcto funcionamiento
 - La arquitectura de los archivos `.h` será en base a la programación orientada a objetos
 
 ```cpp
@@ -30,8 +35,3 @@ int ejemplo = 2;
 public void convertirUnidad(int x){
 }
 ```
-
-### Prácticas para la base de código
-
-- Cada persona involucrada trabajará en su propio archivo de extensión `.h` para evitar merge conflicts.
-- No se utilizará el `namespace std`, por lo tanto, todos los comandos que lo necesiten serán concatenados junto con `std::` para su correcto funcionamiento
