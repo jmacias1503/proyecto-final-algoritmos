@@ -4,6 +4,7 @@ Crear un programa que convierta entre diferentes unidades (por ejemplo, metros a
 
 ## Flujo de trabajo
 
+- Se trabajará con forks, cada que se suban cambios, se hará una pull request a la rama dev
 - Cada persona involucrada trabajará en su propio archivo de extensión `.h` para evitar merge conflicts.
 - Todo cambio nuevo será implementado principalmente a `dev`, una vez corroborados los cambios, se enviarán a la rama `master`
 
