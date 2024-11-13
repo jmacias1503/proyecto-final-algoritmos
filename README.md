@@ -5,7 +5,7 @@ Crear un programa que convierta entre diferentes unidades (por ejemplo, metros a
 ## Flujo de trabajo
 
 - Cada persona involucrada trabajará en su propio archivo de extensión `.h` para evitar merge conflicts.
-- Todo cambio nuevo será implementado principalmente a `dev`, una vez corroborados los cambios, se enviarán a la rama `main`
+- Todo cambio nuevo será implementado principalmente a `dev`, una vez corroborados los cambios, se enviarán a la rama `master`
 
 ## Requerimientos funcionales del proyecto
 
