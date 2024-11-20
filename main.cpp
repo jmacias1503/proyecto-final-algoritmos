@@ -3,6 +3,7 @@
 
 int instruccionesMetrosPies = 0;
 
+// complejidad linear
 std::vector<double> convMetrosPies(std::vector<double> inputMetros, int size){
   for(int i = 0; i < inputMetros.size(); i++) {
     inputMetros[i] = inputMetros[i] / 0.3048;
@@ -13,20 +14,15 @@ std::vector<double> convMetrosPies(std::vector<double> inputMetros, int size){
   return inputMetros;
 }
 
+// complejidad constante
 double convCelsiusKelvin(double inputCelsius){
   std::cout << "Tamaño de entrada: 1" << std::endl;
   std::cout<< "Cantidad de instrucciones: 1" << std::endl;
   return inputCelsius + 273.15;
 }
 
-double convKelvinCelsius(double inputKelvin){
-  std::cout << "Tamaño de entrada: 1" << std::endl;
-  std::cout<< "Cantidad de instrucciones: 1" << std::endl;
-  return inputKelvin - 273.15;
-}
-
+// complejidad logaritmica
 int instruccionesCaloriasJoules = 0;
-
 double convCaloriasJoules(double inputArr[], double valorABuscar, int maximo, int minimo, int size) {
   while (minimo <= maximo) {
     int medio = minimo + (maximo - minimo) / 2;
